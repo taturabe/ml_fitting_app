@@ -1,5 +1,4 @@
 import streamlit as st
-import time
 import numpy as np
 import matplotlib.pyplot as plt
 import numpy.linalg as LA
@@ -15,7 +14,7 @@ last_rows = np.random.randn(1, 1)
 
 N = 15
 
-st.title("3Q SA Study Day ML session")
+st.title("ML Fitting App")
 st.subheader("多項式回帰モデル")
 st.latex(r'''
     y = a_0  + a_1 x + a_2 x^2 + a_3 x^3 ... = \sum_{k=0}^{m}a_kx^k
