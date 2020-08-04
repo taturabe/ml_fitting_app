@@ -1,5 +1,7 @@
 # ML Fitting App
 
+![image](https://github.com/taturabe/ml_fitting_app/blob/master/ml_fitting_app.png)
+
 機械学習の基本である線形多項式回帰を体験するアプリです。
 
 WebアプリのPythonのstreamlitライブラリを使用しています。
@@ -15,3 +17,7 @@ WebアプリのPythonのstreamlitライブラリを使用しています。
 ```
 streamlit run polynomial.py
 ```
+
+Best fitボタンがオフの時は、スライダーが現れ手動で多項式モデルを動かすことができます。
+
+Best fitボタンがオン（チェック）の時は、自乗誤差を最小化するように最適化を行います。
